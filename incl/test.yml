@@ -1,0 +1,3 @@
+- copy: src=roles/bar/files/test.txt dest=/tmp/test1
+- copy: src=roles/foo/files/test.txt dest=/tmp/test2
+#- include: roles/foo/tasks/test.yml

@@ -1,0 +1,4 @@
+
+- hosts: localhost
+  tasks:
+    - include: incl/test.yml
